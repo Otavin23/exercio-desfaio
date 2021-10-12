@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.logo h2{
+    color: #D6000D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+    
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    top: 40px;
+    right: 180px;
+
+}
+nav li{
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+
+
+    padding-right: 35px;
+}
+
+nav a{
+    color: #706f70;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #2b2b2b;
+}
+.login ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    top: 30px;
+    right: 50px;
+
+}
+.login li{
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    position: absolute;
+
+    top: -1px;
+    right: 1px;
+
+    background-color: #D6000D;
+
+    border-radius: 10px;
+
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #706f70;
+}
+
+/* Começando a estilizar o Main agora */
+
+.imagem img{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    bottom: 120px;
+    left: 200px;
+
+}
+
+/* Começando a estilizar paragrafos e textos */
+
+.h1-p p{
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+
+
+    position: absolute;
+
+    bottom: 400px;
+    right: 230px;
+
+}
+.h1-p h1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #D6000D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+    position: absolute;
+    
+    bottom: 330px;
+    right: 100px;
+}
+
+/* Estilizando O Botao Agora */
+.botao{
+    background-color: #2b2b2b;
+}
+.botao button{
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: none;
+
+    border-radius: 10px;
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    position: absolute;
+ 
+    bottom: 270px;
+    right: 270px;
+}
+.botao button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    background-color: #D6000D;
+
+
+}
+.botao button:hover{
+    color: #706f70;
+    cursor:pointer;
+}
+
+/* COMEÇANDO A ESTILIZAR IMAGEM DO ICONE DE CERT */
+
+.imagem-certo img{
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    margin-top: 600px;
+}
+
+.dominio ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -25px;
+    right: 900px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.dominio li{
+    list-style: none;
+}
+.hospedagem ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -65px;
+    right: 975px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.hospedagem li{
+    list-style: none;
+}
+.Site-resp ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -115px;
+    right: 960px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Site-resp li{
+    font-size: 18px;
+    list-style: none;
+}
+.rede ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -160px;
+    right: 975px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rede li{
+    list-style: none;
+    font-size: 18px;
+}
+.chat ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -210px;
+    right: 995px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chat li{
+    list-style: none;
+    font-size: 18px;
+}
+.blog ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -250px;
+    right: 969px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog li{
+    list-style: none;
+    font-size: 18px;
+}
+
+/* estilizando imagem logo */
+
+.imagem-logo img{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    margin-top: 500px;
+    right: 150px;
+}
+.nome ul{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+
+    position: absolute;
+    bottom: -390px;
+    left: 220px;
+}
+.nome li{
+    list-style: none;
+}
+#botao2{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    bottom: -460px;
+    left:480px;
+
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-top: 15px;
+}
+#botao2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #D6000D;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+input{
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    bottom: -460px;
+    left: 220px;
+
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+input{
+    border: none;
+    font-size: 18px;
+
+    background-color: #dcdcdc;
+
+    border-radius: 10px;
+}
+input:hover{
+    color: black;
+    border: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Começando o rodade */
+
+
+.txt{
+    background-color: black;
+    width: 99%;
+    height: 300px;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    
+    bottom: -900px;
+}
+.txt h2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+    position: absolute;
+    
+    top: 70px;
+    left: 40px;
+}
+.txt p{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+
+    position: absolute;
+    
+    top: 125px;
+    left: 40px;
+
+}
+.sobr h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 29px;
+
+    position: absolute;
+
+    bottom: -713px;
+    left: 360px;
+
+
+}
+.sobr p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+
+    position: absolute;
+
+    bottom: -769px;
+    left: 340px;
+
+}
